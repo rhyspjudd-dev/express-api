@@ -2,6 +2,7 @@ const express = require('express');
 const prometheusMiddleware = require('express-prometheus-middleware');
 const cors = require('cors');
 const app = express();
+const port = process.env.PORT || 7777;
 
 app.use(cors());
 
@@ -27,3 +28,6 @@ app.get('/time', checkAuthorization, (req, res) => {
 app.get('/metrics', checkAuthorization, (req, res) => {
   res.send('Your Prometheus metrics here');
 });
+
+// This displays message that the server running and listening to specified port
+app.listen(port, () => console.log(`Listening on port ${port}`)); //Line 6
