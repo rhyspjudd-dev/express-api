@@ -16,7 +16,7 @@ To run the server
 ```
 
 To run the client (react app)
-
+**Open new terminal in project root**
 ```bash
   cd client
   npm install

@@ -65,7 +65,7 @@ function App() {
   return (
     <div className="App">
       <div className="grid grid-cols-2 font-body">
-      <div className="half flex justify-center items-center bg-green text-white">
+      <div className="half h:screen flex justify-center items-center bg-green text-white">
         <div className='container'>
         <h2 className="text-3xl font-bold font-blue-grey-900 font-heading">Server Time</h2>
         {loadingTime ? (
@@ -89,7 +89,7 @@ function App() {
         )}
         </div>
       </div>
-      <div className="half md:h-screen flex justify-center items-center">
+      <div className="half h-screen flex justify-center items-center">
       <div className='container p-4'>
         <h2 className="text-3xl font-bold font-heading">Metrics</h2>
         {loadingMetrics ? 
