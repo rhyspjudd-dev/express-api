@@ -5,7 +5,7 @@
 
 ## Installation
 
-Git clone repo
+Git clone [repo](https://github.com/rhyspjudd-dev/express-api)
 
 To run the server
 
@@ -14,19 +14,16 @@ To run the server
   npm install
   npm start
 ```
-**Server proxy:** Port 77777
 
 To run the client (react app)
 
 ```bash
   cd client
   npm install
-  node server.js
   npm start
 ```
-**Client proxy:** Port 3000
 
-Open app (http://localhost:3000)
+Open and run app on (http://localhost:3000)
      
 # Build Process
 
