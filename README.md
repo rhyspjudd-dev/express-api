@@ -21,6 +21,7 @@ To run the client (react app)
 ```bash
   cd client
   npm install
+  node server.js
   npm start
 ```
 **Client proxy:** Port 3000
