@@ -54,6 +54,11 @@ Host the source code on a version control platform ie. GitHub. Ensure the reposi
 
 **Server:** Node, Express, Prometheus Middleware
 
+## With more time...
+Ideally I would've liked to break the react components down further into modular files but given my experience is more frontend than backend I thought wiser to tackle the API first. 
+
+Thanks for considering me 😁
+
 ## Authors
 
 - [@rhyspjudd-dev](https://github.com/rhyspjudd-dev)
